@@ -33,7 +33,7 @@ const Intro = () => {
         career as a web developer and make a significant contribution to an
         organization
       </p>
-      <div className="flex space-x-3">
+      <div className="sm:flex-col space-x-3">
         <Link
           activeClass="active"
           duration={500}
