@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
-import logo from ''
+
 import React, { useEffect, useState } from "react";
-import Logo from "../utils/Icons/Logo";
+import Logo from "../../utils/Icons/Logo";
+import { navOptions } from "./navOptions";
+import NavOption from "./NavOptionComp";
 
 const Header = () => {
   const [handleShow, setHandleShow] = useState(false);
@@ -36,9 +38,13 @@ const Header = () => {
           title="Tarun"
           to="intro"
         >
-            <Logo className="cursor-pointer"/>
+          <Logo className="cursor-pointer" />
         </Link>
-       
+        <ul className="hidden space-x-8 md:flex">
+          {navOptions.map((el, i) => {
+            return <NavOption item={el} key={i} />;
+          })}
+        </ul>
       </div>
     </nav>
   );
