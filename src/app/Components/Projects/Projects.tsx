@@ -8,7 +8,7 @@ const Projects = () => {
       <SectionTitle title="My creative Portfolio Section" direction="right" />
       <div className="flex flex-col">
         {projectsData.map((project, i) => {
-          return <ListProjects key={i} project={project} />;
+          return <ListProjects key={i} {...project} />;
         })}
       </div>
     </div>

@@ -23,6 +23,7 @@ export let projectsData = [
     id: 1,
     img: Shephora,
     name: "Shephora Clone",
+    alt:'Shephor logo',
     github: "https://github.com/tarun-upadhyay/astute-frog-320",
     deployed: "https://tarunu88-gmail-com-makes-great-sites-9eb73.netlify.app/",
     detail:
@@ -32,6 +33,7 @@ export let projectsData = [
   {
     id: 2,
     img: Coshedule,
+    alt:'Coshedule',
     name: "Coshedule Clone",
     github: "https://github.com/akaushik509/WEB101_Project",
     deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
@@ -42,6 +44,7 @@ export let projectsData = [
   {
     id: 3,
     img: Nord,
+    alt:'NordStrom clone',
     name: "Nordstrom Clone",
     github: "https://github.com/agrawalrajat310/red-sail-4113",
     deployed: "https://enchanting-gumdrop-0df91d.netlify.app/",
@@ -51,6 +54,7 @@ export let projectsData = [
   {
     id: 4,
     img: Trip,
+    alt:'TripVilla clone',
     name: "Tripvillas Clone",
     github: "https://github.com/1301yashraj/fleet-lock-616",
     deployed: "https://polite-muffin-b118b2.netlify.app/",
@@ -62,6 +66,7 @@ export let projectsData = [
     id: 5,
     img: Weather,
     name: "Weather App",
+    alt:'Weather App',
     github: "https://github.com/masai-course/Tarun_fw19_1178/tree/master/unit-3/old/sprint-2/day-4/assignments/Weather-1",
     deployed: "https://zingy-puppy-341028.netlify.app/",
     detail:
@@ -71,6 +76,7 @@ export let projectsData = [
   {
     id: 6,
     img: Coshedule,
+    alt:'Coshedule',
     name: "Coshedule Clone",
     github: "https://github.com/akaushik509/WEB101_Project",
     deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
