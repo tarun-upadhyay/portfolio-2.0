@@ -15,8 +15,13 @@ import jest from "./Images/logo/jest.png";
 import mong from "./Images/logo/mongo.png";
 import moongose from "./Images/logo/mongoose.png";
 import npm from "./Images/logo/npm.png";
+import tailwind from "./Images/logo/taiwindCss.png";
+import sql from "./Images/logo/sql.png";
+import java from "./Images/logo/java.png";
+import jQuery from "./Images/logo/jQuery.png";
 import Nord from "./Images/NordStrom.gif";
 import Trip from "./Images/Tripvillas.gif";
+
 import NordJs from "./Images/logo/nodejs.png";
 import Weather from "./Images/Weather.gif";
 export let projectsData = [
@@ -113,29 +118,29 @@ export let logo = [
   },
   {
     id: 4,
-    image: React,
-    alt: "React",
+    image: jQuery,
+    alt: "jQuery",
   },
   {
     id: 5,
+    image: React,
+    alt: "React",
+  },
+
+  {
+    id: 6,
     image: Redux,
     alt: "Redux",
   },
   {
-    id: 6,
-    image: mong,
-    alt: "MongoDB",
-  },
-
-  {
     id: 7,
-    image: exp,
-    alt: "Express.js",
+    image: bootstrap,
+    alt: "Bootstrap",
   },
   {
     id: 8,
-    image: NordJs,
-    alt: "Nodejs Img",
+    image: tailwind,
+    alt: "tailwind",
   },
 
   {
@@ -143,24 +148,48 @@ export let logo = [
     image: chakra,
     alt: "Chakra UI",
   },
-
+  {
+    id: 10,
+    image: NordJs,
+    alt: "Nodejs Img",
+  },
   {
     id: 11,
-    image: bootstrap,
-    alt: "Bootstrap",
+    image: exp,
+    alt: "Express.js",
   },
   {
     id: 12,
-    image: vs,
-    alt: "vscode",
+    image: mong,
+    alt: "MongoDB",
+  },
+
+  {
+    id: 13,
+    image: java,
+    alt: "Java",
+  },
+ 
+
+  
+  {
+    id: 14,
+    image: sql,
+    alt: "sql",
   },
   {
     id: 13,
+    image: vs,
+    alt: "vscode",
+  },
+
+  {
+    id: 14,
     image: npm,
     alt: "npm",
   },
   {
-    id: 14,
+    id: 15,
     image: git,
     alt: "git",
   },
