@@ -28,7 +28,7 @@ export let projectsData = [
     deployed: "https://tarunu88-gmail-com-makes-great-sites-9eb73.netlify.app/",
     detail:
       "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech:  "React, Chakra-UI, Redux",
+    tech: ['React', 'Redux', 'Chakra UI'],
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export let projectsData = [
     deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
     detail:
       "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech: "HTML, CSS, Javascript",
+    tech: ['HTML','CSS', 'Javascript'],
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export let projectsData = [
     github: "https://github.com/agrawalrajat310/red-sail-4113",
     deployed: "https://enchanting-gumdrop-0df91d.netlify.app/",
     detail: "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech: "HTML, CSS, Javascript",
+    tech: ['HTML','CSS', 'Javascript'],
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ export let projectsData = [
     deployed: "https://polite-muffin-b118b2.netlify.app/",
     detail:
       "Largest holiday home rental portal in Asia. Browse your ideal vacation home from over 100000 holiday homes spread across destinations.",
-    tech: "HTML, CSS, Javascript",
+    tech: ['HTML','CSS', 'Javascript'],
   },
   {
     id: 5,
@@ -71,7 +71,7 @@ export let projectsData = [
     deployed: "https://zingy-puppy-341028.netlify.app/",
     detail:
       "It's a web app to show the weather forecast details using weather API and here you will be able to search for all the weather details for any city.",
-    tech: "Javascript, Weather-API, HTML, CSS",
+    tech: ['HTML','CSS', 'Javascript', 'Weather-API'],
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ export let projectsData = [
     deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
     detail:
       "This project is about clone of Shephora.com which is an e-com store & here  implemented some features like sorting, singing-up, add to cart etc.",
-    tech:  "React, Chakra-UI, Redux",
+    tech:  ['React', 'Redux', 'Chakra-UI'],
   },
 ];
 export let logo = [

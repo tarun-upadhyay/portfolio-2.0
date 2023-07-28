@@ -4,7 +4,7 @@ import React, { FC } from "react";
 interface ProjectTypeProp {
   img: string;
   name: string;
-  tech: string;
+  tech: string[];
   github: string;
   deployed: string;
   detail: string;
@@ -31,6 +31,10 @@ const ListProjects: FC<ProjectTypeProp> = ({
       <div className="ml-2 mt-5 md:mt-0 md:ml-20">
         <h3 className="text-3xl font-semibold text-neon">{name}</h3>
         <p className="text-textDark mt-3 md:max-w-[700px]">{detail}</p>
+        {
+            tech.map((el,i)=> <span className="inline-block bg-text text-darkerBlue rounded-full px-3 py-1 mt-2 mr-2"
+            key={i}>{el}</span>)
+        }
       </div>
     </article>
   );
