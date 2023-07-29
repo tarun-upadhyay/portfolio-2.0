@@ -194,3 +194,36 @@ export let logo = [
     alt: "git",
   },
 ];
+
+export let allSocialMediaLink = [
+  {
+    name: 'GitHub',
+    icon: 'github.svg',
+    link: 'https://github.com/avneesh0612',
+  },
+  {
+    name: 'Twitter',
+    icon: 'twitter.svg',
+    link: 'https://twitter.com/avneesh0612',
+  },
+  {
+    name: 'Hashnode',
+    icon: 'hashnode.svg',
+    link: 'https://blog.avneesh.tech',
+  },
+  {
+    name: 'Instagram',
+    icon: 'instagram.svg',
+    link: 'https://instagram.com/avneesh.codes',
+  },
+  {
+    name: 'Mail me',
+    icon: 'mail.svg',
+    link: 'mailto:avneeshagarwal0612@gmail.com',
+  },
+  {
+    name: 'LinkedIn',
+    icon: 'linkedin.svg',
+    link: 'https://www.linkedin.com/in/avneesh0612',
+  },
+]

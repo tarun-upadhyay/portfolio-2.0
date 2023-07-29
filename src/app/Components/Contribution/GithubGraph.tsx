@@ -18,7 +18,7 @@ const GithubGraph: FC<GraphProp> = ({
   username,
 }) => {
   return (
-    <div className="md:w-[70%] m-auto rounded border border-neon p-8 mt-10 flex flex-wrap justify-between">
+    <div className="md:w-[70%] m-auto rounded border border-double border-neon p-8 mt-10 flex flex-wrap justify-between">
       <GitHubCalendar
         username={username}
         fontSize={fontSize}
@@ -30,6 +30,7 @@ const GithubGraph: FC<GraphProp> = ({
         }
       ></GitHubCalendar>
       <ReactTooltip id="react-tooltip" />
+      
     </div>
   );
 };

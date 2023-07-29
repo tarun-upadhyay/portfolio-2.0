@@ -2,6 +2,7 @@
 import SectionTitle from "@/app/utils/Common/SectionTitle";
 import React from "react";
 import GithubGraph from "./GithubGraph";
+import Streak from "./Streak";
 
 const Contribution = () => {
   return (
@@ -13,6 +14,7 @@ const Contribution = () => {
       <GithubGraph delayShow={20} username="tarun-upadhyay" calenderCss="m-auto" fontSize={20} >
         
       </GithubGraph>
+      <Streak/>
     </div>
   );
 };
