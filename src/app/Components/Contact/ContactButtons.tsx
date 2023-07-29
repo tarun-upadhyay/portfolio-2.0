@@ -16,7 +16,7 @@ const ContactButtons: FC<ButtonProps> = ({ link, name, icon, marginLeft }) => {
         target="_blank"
       >
         <Image
-          className="rounded rounded-4xl"
+          className="rounded-[50%] rounded-4xl"
           alt={name}
           height={25}
           src={icon}

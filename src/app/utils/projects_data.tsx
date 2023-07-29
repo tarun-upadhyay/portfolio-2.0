@@ -224,6 +224,7 @@ export let allSocialMediaLink = [
     name: 'Instagram',
     icon: Instagram,
     link: 'https://www.instagram.com/tarun_kr_upadhyay/',
+  
   },
   {
     name: 'Mail me',
