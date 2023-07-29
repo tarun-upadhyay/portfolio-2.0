@@ -3,12 +3,15 @@ import React, { FC } from "react";
 interface SkillProps {
   image: string;
   alt: string;
+  rounded: boolean;
 }
-const ListSkill: FC<SkillProps> = ({ image, alt }) => {
+const ListSkill: FC<SkillProps> = ({ image, alt, rounded }) => {
   return (
     <div className="mx-auto duration-200  hover:scale-110 m-1 p-3">
       <Image
-        className="rounded w-full object-fit h-40"
+        className={`${
+          rounded ? "rounded-[50%]" : "rounded"
+        }  w-full object-fit h-40 `}
         src={image}
         alt={alt}
         width={200}

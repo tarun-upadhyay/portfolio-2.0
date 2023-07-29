@@ -117,11 +117,13 @@ export let logo = [
     id: 3,
     image: js,
     alt: "JavaScript",
+   
   },
   {
     id: 4,
     image: jQuery,
     alt: "jQuery",
+   
   },
   {
     id: 5,
@@ -138,17 +140,20 @@ export let logo = [
     id: 7,
     image: bootstrap,
     alt: "Bootstrap",
+    rounded:true
   },
   {
     id: 8,
     image: tailwind,
     alt: "tailwind",
+    rounded:true
   },
 
   {
     id: 9,
     image: chakra,
     alt: "Chakra UI",
+    rounded:true
   },
   {
     id: 10,
@@ -170,6 +175,7 @@ export let logo = [
     id: 13,
     image: java,
     alt: "Java",
+    rounded:true
   },
  
 
@@ -178,22 +184,27 @@ export let logo = [
     id: 14,
     image: sql,
     alt: "sql",
+    rounded:true
+  
   },
   {
     id: 13,
     image: vs,
     alt: "vscode",
+    
   },
 
   {
     id: 14,
     image: npm,
     alt: "npm",
+    rounded:true
   },
   {
     id: 15,
     image: git,
     alt: "git",
+    rounded:true
   },
 ];
 
