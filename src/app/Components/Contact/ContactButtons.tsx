@@ -1,12 +1,12 @@
-import Image from 'next/image';
-import React, { FC } from 'react'
+import Image from "next/image";
+import React, { FC } from "react";
 interface ButtonProps {
-    link: string;
-    icon: string;
-    name: string;
-    marginLeft?: string;
-  }
-const ContactButtons:FC<ButtonProps> = ({link, name, icon, marginLeft}) => {
+  link: string;
+  icon?: any;
+  name: string;
+  marginLeft?: string;
+}
+const ContactButtons: FC<ButtonProps> = ({ link, name, icon, marginLeft }) => {
   return (
     <div>
       <a
@@ -15,19 +15,17 @@ const ContactButtons:FC<ButtonProps> = ({link, name, icon, marginLeft}) => {
         rel="noreferrer"
         target="_blank"
       >
-        <Image alt={name} height={25} src={`/logos/${icon}`} width={25} />
+        <Image
+          className="rounded rounded-4xl"
+          alt={name}
+          height={25}
+          src={icon}
+          width={25}
+        />
         <span className="ml-2">{name}</span>
       </a>
-      <a
-        className={`flex items-center mt-10 duration-100 rounded-lg fill-current ${marginLeft} md:hidden text-neon`}
-        href={link}
-        rel="noreferrer"
-        target="_blank"
-      >
-        <Image alt={name} height={25} src={`/logos/${icon}`} width={25} />
-      </a>
     </div>
-  )
-}
+  );
+};
 
-export default ContactButtons
+export default ContactButtons;

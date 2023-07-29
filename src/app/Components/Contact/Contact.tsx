@@ -29,6 +29,36 @@ const Contact = () => {
           </div>
         ))}
       </div>
+
+      <div className="flex flex-col md:flex-row flex-wrap justify-center mx-auto mt-8 space-x-5">
+        <div>
+          <h1 className="text-2xl font-fira font-bold">Contact Details:</h1>
+        </div>
+        <div>
+          <h1 className="text-2xl font-fira font-bold text-neon">
+            Feel free to ask anything
+          </h1>
+          <div className="border rounded-xl border-neon px-5 py-8 mt-10">
+            <form action="" className="flex flex-col">
+              <input type="text" className="h-[50px] rounded font-bold px-5 bg-text  enabled:hover:border-neon drop-shadow-md" placeholder="Name" />
+              <br />
+              <input type="text" placeholder="Subject" className="h-[50px] rounded font-bold px-5 bg-text text-black-1000 enabled:hover:border-neon drop-shadow-md" />
+              <br />
+              <input type="text" placeholder="Email" className="h-[50px] rounded font-bold px-5 bg-text enabled:hover:border-neon drop-shadow-md" />
+              <br />
+              <textarea
+                placeholder="Message"
+                name="message"
+                rows={5}
+                required
+                className="px-5 py-3 text-lg  placeholder-black rounded-lg font-bold bg-text drop-shadow-md"
+              ></textarea>
+              <br />
+              <button className="border border-neon text-text">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

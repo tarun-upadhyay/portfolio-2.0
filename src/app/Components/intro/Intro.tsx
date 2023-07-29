@@ -60,9 +60,11 @@ const Intro = () => {
             Check out my work!
           </button>
         </Link>
-        <button className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-darkerBlue duration-100 border-neon border-2 text-neon rounded-lg">
-          Resume
-        </button>
+        <a href="#skil">
+          <button className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-darkerBlue duration-100 border-neon border-2 text-neon rounded-lg">
+            Resume
+          </button>
+        </a>
       </div>
     </motion.div>
   );

@@ -19,9 +19,11 @@ import tailwind from "./Images/logo/taiwindCss.png";
 import sql from "./Images/logo/sql.png";
 import java from "./Images/logo/java.png";
 import jQuery from "./Images/logo/jQuery.png";
+import LinkDin from "./Images/clinkedin.png";
+import Email from './Images/email.png'
 import Nord from "./Images/NordStrom.gif";
 import Trip from "./Images/Tripvillas.gif";
-
+import Instagram from './Images/logo/instagram-icon.jpg'
 import NordJs from "./Images/logo/nodejs.png";
 import Weather from "./Images/Weather.gif";
 export let projectsData = [
@@ -198,32 +200,24 @@ export let logo = [
 export let allSocialMediaLink = [
   {
     name: 'GitHub',
-    icon: 'github.svg',
-    link: 'https://github.com/avneesh0612',
-  },
-  {
-    name: 'Twitter',
-    icon: 'twitter.svg',
-    link: 'https://twitter.com/avneesh0612',
-  },
-  {
-    name: 'Hashnode',
-    icon: 'hashnode.svg',
-    link: 'https://blog.avneesh.tech',
-  },
-  {
-    name: 'Instagram',
-    icon: 'instagram.svg',
-    link: 'https://instagram.com/avneesh.codes',
-  },
-  {
-    name: 'Mail me',
-    icon: 'mail.svg',
-    link: 'mailto:avneeshagarwal0612@gmail.com',
+    icon: git,
+    link: 'https://github.com/tarun-upadhyay',
   },
   {
     name: 'LinkedIn',
-    icon: 'linkedin.svg',
-    link: 'https://www.linkedin.com/in/avneesh0612',
+    icon: LinkDin,
+    link: 'https://www.linkedin.com/in/tarun-kr-upadhyay/',
   },
+
+  {
+    name: 'Instagram',
+    icon: Instagram,
+    link: 'https://www.instagram.com/tarun_kr_upadhyay/',
+  },
+  {
+    name: 'Mail me',
+    icon: Email,
+    link: 'mailto:tarunu88@gmail.com',
+  },
+ 
 ]

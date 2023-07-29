@@ -9,6 +9,7 @@ interface ProjectTypeProp {
   deployed: string;
   detail: string;
   alt: string;
+  id:number;
   type: string;
 }
 const ListProjects: FC<ProjectTypeProp> = ({

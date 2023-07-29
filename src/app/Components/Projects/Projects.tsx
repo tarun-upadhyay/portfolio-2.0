@@ -4,10 +4,10 @@ import { projectsData } from "@/app/utils/projects_data";
 import ListProjects from "./ListProjects";
 const Projects = () => {
   return (
-    <div className="max-w-7xl w-full mx-auto p-5 md:p-0" id="work">
+    <div className="max-w-7xl w-full mx-auto p-5 md:p-0" id="project">
       <SectionTitle title="My creative Portfolio Section" direction="right" />
       <div className="flex flex-col">
-        {projectsData.map((project, i) => {
+        {projectsData.map((project, i: number) => {
           return <ListProjects key={i} {...project} />;
         })}
       </div>
