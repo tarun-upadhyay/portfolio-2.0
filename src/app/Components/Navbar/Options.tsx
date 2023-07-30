@@ -5,7 +5,7 @@ interface NavOptions {
 export const navOptions: NavOptions[] = [
   {
     name: "Home",
-    href: "home",
+    href: "intro",
   },
   {
     name: "About",

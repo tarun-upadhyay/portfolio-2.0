@@ -4,7 +4,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="max-w-7xl w-full mx-auto p-5 md:p-0">
+    <div className="max-w-7xl w-full mx-auto p-5 md:p-0" id="experience">
       <SectionTitle title="Professional Experience" direction="right" />
       <div className="flex flex-col">
         <article className="flex flex-col items-center mt-10 md:flex-row">

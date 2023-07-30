@@ -4,7 +4,7 @@ import React from "react";
 import ProfileImg from "../../utils/Images/profile.png";
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0">
+    <div className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0" id='about'>
       <SectionTitle title="About me" direction="left" />
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
         <p className="mt-10 text-xl text-textDark md:w-1/2">

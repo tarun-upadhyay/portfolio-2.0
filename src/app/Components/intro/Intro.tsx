@@ -36,7 +36,7 @@ const Intro = () => {
       <div className="sm:flex-col space-x-3">
         <Link
           activeClass="active"
-          duration={500}
+          duration={1000}
           href="contact"
           offset={-100}
           smooth={true}
@@ -50,11 +50,11 @@ const Intro = () => {
         <Link
           activeClass="active"
           duration={500}
-          href="contact"
+         
           offset={-100}
           smooth={true}
           spy={true}
-          to="work"
+          to="projects"
         >
           <button className="py-2 px-5 !mt-10 text-darkerBlue bg-neon border-neon hover:bg-transparent duration-100 hover:text-neon border-2 rounded-lg">
             Check out my work!
