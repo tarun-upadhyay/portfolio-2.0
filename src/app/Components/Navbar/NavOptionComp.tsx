@@ -5,7 +5,9 @@ interface INavOption {
   item: {
     name: string;
     href: string;
+    
   };
+ 
 }
 
 const NavOption: FC<INavOption> = ({ item }) => {

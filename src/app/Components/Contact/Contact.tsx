@@ -6,13 +6,13 @@ import ContactButtons from "./ContactButtons";
 import emailjs from "@emailjs/browser";
 const Contact = () => {
   const formData: any = useRef();
-  console.log(process.env.NEXT_PUBLIC_SERVICEID);
+
   const handleFormData = (e: any) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICEID,
-        process.env.NEXT_PUBLIC_TEMPLATEID,
+        process.env.NEXT_PUBLIC_SERVICEID as string,
+        process.env.NEXT_PUBLIC_TEMPLATEID as string,
         formData.current,
         process.env.NEXT_PUBLIC_PASSWORD
       )
