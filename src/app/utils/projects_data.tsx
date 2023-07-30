@@ -108,32 +108,38 @@ export let logo = [
     id: 1,
     image: `https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png`,
     alt: "HTML",
+    rounded:false
   },
   {
     id: 2,
     image: `${Css}`,
     alt: "CSS",
+    rounded:false
   },
   {
     id: 3,
     image: `${js}`,
     alt: "JavaScript",
+    rounded:false
   },
   {
     id: 4,
     image: `${jQuery}`,
     alt: "jQuery",
+    rounded:false
   },
   {
     id: 5,
     image: `${React}`,
     alt: "React",
+    rounded:false
   },
 
   {
     id: 6,
     image: `${Redux}`,
     alt: "Redux",
+    rounded:false
   },
   {
     id: 7,
@@ -158,21 +164,25 @@ export let logo = [
     id: 22,
     image: `${nextjs}`,
     alt: "nextjs",
+    rounded:false
   },
   {
     id: 10,
     image: `${NordJs}`,
     alt: "Nodejs Img",
+    rounded:false
   },
   {
     id: 11,
     image: `${exp}`,
     alt: "Express.js",
+    rounded:false
   },
   {
     id: 12,
     image: `${mong}`,
     alt: "MongoDB",
+    rounded:false
   },
 
   {
@@ -192,6 +202,7 @@ export let logo = [
     id: 13,
     image: `${vs}`,
     alt: "vscode",
+    rounded:false
   },
 
   {
