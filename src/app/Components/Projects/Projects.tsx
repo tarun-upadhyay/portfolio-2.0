@@ -1,8 +1,8 @@
 import SectionTitle from "@/app/utils/Common/SectionTitle";
-import React, { FC } from "react";
+import React from "react";
 import { projectsData } from "@/app/utils/projects_data";
 import ListProjects from "./ListProjects";
-const Projects:FC<Project = () => {
+const Projects = () => {
   return (
     <div className="max-w-7xl w-full mx-auto p-5 md:p-0" id="projects">
       <SectionTitle title="My creative Portfolio Section" direction="right" />
