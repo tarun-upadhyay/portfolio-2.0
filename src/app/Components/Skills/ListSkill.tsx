@@ -5,6 +5,7 @@ interface SkillProps {
   alt: string;
   rounded: boolean;
   id: number;
+  key: number;
 }
 const ListSkill: FC<SkillProps> = ({ image, alt, rounded }) => {
   return (

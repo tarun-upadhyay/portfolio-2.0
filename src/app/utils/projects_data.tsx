@@ -109,29 +109,34 @@ export let logo = [
     image: `https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png`,
     alt: "HTML",
     rounded: false,
+    key:1
   },
   {
     id: 2,
     image: Css,
     alt: "CSS",
     rounded: false,
+    key:2
   },
   {
     id: 3,
     image: js,
     alt: "JavaScript",
     rounded: false,
+    key:3
   },
   {
     id: 4,
     image: jQuery,
     alt: "jQuery",
     rounded: false,
+    key:4
   },
   {
     id: 5,
     image: React, rounded: false,
     alt: "React",
+    key:5
   },
 
   {
@@ -139,49 +144,58 @@ export let logo = [
     image: Redux,
     alt: "Redux",
     rounded: false,
+    key:6
   },
   {
     id: 7,
     image: bootstrap,
     alt: "Bootstrap",
     rounded: true,
+    key:7
   },
   {
     id: 8,
     image: tailwind,
     alt: "tailwind",
+
     rounded: true,
+    key:8
   },
 
   {
     id: 9,
     image: chakra,
     alt: "Chakra UI",
+    key:9,
     rounded: true,
+    key:9
   },
   {
     id: 22,
     image: nextjs,
     alt: "nextjs",
     rounded: false,
+    key:22
   },
   {
     id: 10,
     image: NordJs,
     alt: "Nodejs Img",
-    rounded: false,
+    rounded: false, key:10
   },
   {
     id: 11,
     image: exp,
     alt: "Express.js",
     rounded: false,
+    key:11
   },
   {
     id: 12,
     image: mong,
     alt: "MongoDB",
     rounded: false,
+    key:12
   },
 
   {
@@ -189,6 +203,7 @@ export let logo = [
     image: java,
     alt: "Java",
     rounded: true,
+    key:13
   },
 
   {
@@ -196,25 +211,29 @@ export let logo = [
     image: sql,
     alt: "sql",
     rounded: true,
-  },
-  {
-    id: 13,
-    image: vs,
-    alt: "vscode",
-    rounded: false,
-  },
-
-  {
-    id: 14,
-    image: npm,
-    alt: "npm",
-    rounded: true,
+    key:14
   },
   {
     id: 15,
+    image: vs,
+    alt: "vscode",
+    rounded: false,
+    key:15
+  },
+
+  {
+    id: 16,
+    image: npm,
+    alt: "npm",
+    rounded: true,
+    key:16
+  },
+  {
+    id: 17,
     image: git,
     alt: "git",
     rounded: true,
+    key:17
   },
 ];
 
