@@ -15,15 +15,16 @@ import jest from "./Images/logo/jest.png";
 import mong from "./Images/logo/mongo.png";
 import moongose from "./Images/logo/mongoose.png";
 import npm from "./Images/logo/npm.png";
+import nextjs from "./Images/logo/nextjs.png";
 import tailwind from "./Images/logo/taiwindCss.png";
 import sql from "./Images/logo/sql.png";
 import java from "./Images/logo/java.png";
 import jQuery from "./Images/logo/jQuery.png";
 import LinkDin from "./Images/clinkedin.png";
-import Email from './Images/email.png'
+import Email from "./Images/email.png";
 import Nord from "./Images/NordStrom.gif";
 import Trip from "./Images/Tripvillas.gif";
-import Instagram from './Images/logo/instagram-icon.jpg'
+import Instagram from "./Images/logo/instagram-icon.jpg";
 import NordJs from "./Images/logo/nodejs.png";
 import Weather from "./Images/Weather.gif";
 export let projectsData = [
@@ -117,13 +118,11 @@ export let logo = [
     id: 3,
     image: js,
     alt: "JavaScript",
-   
   },
   {
     id: 4,
     image: jQuery,
     alt: "jQuery",
-   
   },
   {
     id: 5,
@@ -140,20 +139,25 @@ export let logo = [
     id: 7,
     image: bootstrap,
     alt: "Bootstrap",
-    rounded:true
+    rounded: true,
   },
   {
     id: 8,
     image: tailwind,
     alt: "tailwind",
-    rounded:true
+    rounded: true,
   },
 
   {
     id: 9,
     image: chakra,
     alt: "Chakra UI",
-    rounded:true
+    rounded: true,
+  },
+  {
+    id: 22,
+    image: nextjs,
+    alt: "nextjs",
   },
   {
     id: 10,
@@ -175,61 +179,55 @@ export let logo = [
     id: 13,
     image: java,
     alt: "Java",
-    rounded:true
+    rounded: true,
   },
- 
 
-  
   {
     id: 14,
     image: sql,
     alt: "sql",
-    rounded:true
-  
+    rounded: true,
   },
   {
     id: 13,
     image: vs,
     alt: "vscode",
-    
   },
 
   {
     id: 14,
     image: npm,
     alt: "npm",
-    rounded:true
+    rounded: true,
   },
   {
     id: 15,
     image: git,
     alt: "git",
-    rounded:true
+    rounded: true,
   },
 ];
 
 export let allSocialMediaLink = [
   {
-    name: 'GitHub',
+    name: "GitHub",
     icon: git,
-    link: 'https://github.com/tarun-upadhyay',
+    link: "https://github.com/tarun-upadhyay",
   },
   {
-    name: 'LinkedIn',
+    name: "LinkedIn",
     icon: LinkDin,
-    link: 'https://www.linkedin.com/in/tarun-kr-upadhyay/',
+    link: "https://www.linkedin.com/in/tarun-kr-upadhyay/",
   },
 
   {
-    name: 'Instagram',
+    name: "Instagram",
     icon: Instagram,
-    link: 'https://www.instagram.com/tarun_kr_upadhyay/',
-  
+    link: "https://www.instagram.com/tarun_kr_upadhyay/",
   },
   {
-    name: 'Mail me',
+    name: "Mail me",
     icon: Email,
-    link: 'mailto:tarunu88@gmail.com',
+    link: "mailto:tarunu88@gmail.com",
   },
- 
-]
+];
