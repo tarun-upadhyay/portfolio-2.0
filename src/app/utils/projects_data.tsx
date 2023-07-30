@@ -30,7 +30,7 @@ import Weather from "./Images/Weather.gif";
 export let projectsData = [
   {
     id: 1,
-    img: Shephora,
+    img: `${Shephora}`,
     name: "Shephora Clone",
     alt: "Shephor logo",
     github: "https://github.com/tarun-upadhyay/astute-frog-320",
@@ -43,7 +43,7 @@ export let projectsData = [
   },
   {
     id: 2,
-    img: Coshedule,
+    img: `${Coshedule}`,
     alt: "Coshedule",
     name: "Coshedule Clone",
     github: "https://github.com/akaushik509/WEB101_Project",
@@ -55,7 +55,7 @@ export let projectsData = [
   },
   {
     id: 3,
-    img: Nord,
+    img: `${Nord}`,
     alt: "NordStrom clone",
     name: "Nordstrom Clone",
     github: "https://github.com/agrawalrajat310/red-sail-4113",
@@ -67,7 +67,7 @@ export let projectsData = [
   },
   {
     id: 4,
-    img: Trip,
+    img: `${Trip}`,
     alt: "TripVilla clone",
     name: "Tripvillas Clone",
     github: "https://github.com/1301yashraj/fleet-lock-616",
@@ -79,7 +79,7 @@ export let projectsData = [
   },
   {
     id: 5,
-    img: Weather,
+    img: `${Weather}`,
     name: "Weather App",
     alt: "Weather App",
     github:
@@ -92,7 +92,7 @@ export let projectsData = [
   },
   {
     id: 6,
-    img: Coshedule,
+    img: `${Coshedule}`,
     alt: "Coshedule",
     name: "Coshedule Clone",
     github: "https://github.com/akaushik509/WEB101_Project",
@@ -111,98 +111,98 @@ export let logo = [
   },
   {
     id: 2,
-    image: Css,
+    image: `${Css}`,
     alt: "CSS",
   },
   {
     id: 3,
-    image: js,
+    image: `${js}`,
     alt: "JavaScript",
   },
   {
     id: 4,
-    image: jQuery,
+    image: `${jQuery}`,
     alt: "jQuery",
   },
   {
     id: 5,
-    image: React,
+    image: `${React}`,
     alt: "React",
   },
 
   {
     id: 6,
-    image: Redux,
+    image: `${Redux}`,
     alt: "Redux",
   },
   {
     id: 7,
-    image: bootstrap,
+    image: `${bootstrap}`,
     alt: "Bootstrap",
     rounded: true,
   },
   {
     id: 8,
-    image: tailwind,
+    image: `${tailwind}`,
     alt: "tailwind",
     rounded: true,
   },
 
   {
     id: 9,
-    image: chakra,
+    image: `${chakra}`,
     alt: "Chakra UI",
     rounded: true,
   },
   {
     id: 22,
-    image: nextjs,
+    image: `${nextjs}`,
     alt: "nextjs",
   },
   {
     id: 10,
-    image: NordJs,
+    image: `${NordJs}`,
     alt: "Nodejs Img",
   },
   {
     id: 11,
-    image: exp,
+    image: `${exp}`,
     alt: "Express.js",
   },
   {
     id: 12,
-    image: mong,
+    image: `${mong}`,
     alt: "MongoDB",
   },
 
   {
     id: 13,
-    image: java,
+    image: `${java}`,
     alt: "Java",
     rounded: true,
   },
 
   {
     id: 14,
-    image: sql,
+    image: `${sql}`,
     alt: "sql",
     rounded: true,
   },
   {
     id: 13,
-    image: vs,
+    image: `${vs}`,
     alt: "vscode",
   },
 
   {
     id: 14,
-    image: npm,
+    image: `${npm}`,
     alt: "npm",
     rounded: true,
   },
   {
     id: 15,
-    image: git,
+    image: `${git}`,
     alt: "git",
     rounded: true,
   },
@@ -211,23 +211,23 @@ export let logo = [
 export let allSocialMediaLink = [
   {
     name: "GitHub",
-    icon: git,
+    icon: `${git}`,
     link: "https://github.com/tarun-upadhyay",
   },
   {
     name: "LinkedIn",
-    icon: LinkDin,
+    icon: `${LinkDin}`,
     link: "https://www.linkedin.com/in/tarun-kr-upadhyay/",
   },
 
   {
     name: "Instagram",
-    icon: Instagram,
+    icon: `${Instagram}`,
     link: "https://www.instagram.com/tarun_kr_upadhyay/",
   },
   {
     name: "Mail me",
-    icon: Email,
+    icon: `${Email}`,
     link: "mailto:tarunu88@gmail.com",
   },
 ];
