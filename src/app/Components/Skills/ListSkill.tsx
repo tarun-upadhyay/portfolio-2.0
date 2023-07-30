@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { FC } from "react";
 interface SkillProps {
-  image: string;
+  image: any;
   alt: string;
   rounded: boolean;
   id: number;

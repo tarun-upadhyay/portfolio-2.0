@@ -2,14 +2,14 @@ import Image from "next/image";
 import { GitHubIcon, VisitIcon } from "../../utils/Icons/AllIcon";
 import React, { FC } from "react";
 interface ProjectTypeProp {
-  img: string;
+  img: any;
   name: string;
   tech: string[];
   github: string;
   deployed: string;
   detail: string;
   alt: string;
-  id:number;
+  id: number;
   type: string;
 }
 const ListProjects: FC<ProjectTypeProp> = ({
@@ -18,7 +18,8 @@ const ListProjects: FC<ProjectTypeProp> = ({
   tech,
   detail,
   github,
-  alt,deployed,
+  alt,
+  deployed,
   type,
 }) => {
   return (
