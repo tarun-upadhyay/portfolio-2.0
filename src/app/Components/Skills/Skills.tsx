@@ -10,8 +10,8 @@ const Skills = () => {
     >
       <SectionTitle direction="right" title="My Technical Skills" />
       <div className="grid grid-cols-2 md:grid-cols-6 m-auto mt-10 justify-center">
-        {logo.map((post, i:number) => (
-          <ListSkill key={post.key} {...post} />
+        {logo.map((post, i: number) => (
+          <ListSkill key={post.id} {...post} />
         ))}
       </div>
     </div>
