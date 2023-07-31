@@ -7,19 +7,20 @@ import "react-tooltip/dist/react-tooltip.css";
 interface GraphProp {
   delayShow: number;
   fontSize: number;
-  calenderCss: string;
+ 
   username: string;
   children?: JSX.Element | JSX.Element[];
 }
 const GithubGraph: FC<GraphProp> = ({
   delayShow,
   fontSize,
-  calenderCss,
+ 
   username,
 }) => {
   return (
-    <div className="md:w-[70%] m-auto rounded border border-double border-neon p-8 mt-10 flex flex-wrap justify-between">
+    <div className="rounded border border-dotted border-neon p-4 mt-10 md:w-[80%] sm:[90%] mx-auto flex justify-center py-8">
       <GitHubCalendar
+    
         username={username}
         fontSize={fontSize}
         renderBlock={(block, activity) =>
@@ -30,7 +31,6 @@ const GithubGraph: FC<GraphProp> = ({
         }
       ></GitHubCalendar>
       <ReactTooltip id="react-tooltip" />
-      
     </div>
   );
 };

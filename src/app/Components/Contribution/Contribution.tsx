@@ -7,13 +7,13 @@ import Streak from "./Streak";
 const Contribution = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center md:justify-start md:items-start max-w-7xl w-full mx-auto p-5 md:p-0"
-      id="blog"
+      className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0"
+     
     >
-      <SectionTitle direction="left" title="My Contribution" />
-      <GithubGraph delayShow={20} username="tarun-upadhyay" calenderCss="m-auto" fontSize={20} >
+       <SectionTitle direction="right" title="My Contribution" />
+     <GithubGraph delayShow={20} username="tarun-upadhyay"  fontSize={20} />
         
-      </GithubGraph>
+     
       <Streak/>
     </div>
   );
