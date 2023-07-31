@@ -2,6 +2,7 @@ import SectionTitle from "@/app/utils/Common/SectionTitle";
 import React from "react";
 import { logo } from "@/app/utils/projects_data";
 import ListSkill from "./ListSkill";
+
 const Skills = () => {
   return (
     <div
