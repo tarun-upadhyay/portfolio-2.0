@@ -54,6 +54,6 @@ body::-webkit-scrollbar-track {
 .active{
   font-weight: bold;
   color: #52dee5;
-  text-decoration: underline;
+ 
   text-decoration-color: #52dee5;
 }
