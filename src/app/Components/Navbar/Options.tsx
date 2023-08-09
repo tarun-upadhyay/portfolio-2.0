@@ -29,6 +29,6 @@ export const navOptions: NavOptions[] = [
   },
   {
     name: "Resume",
-    href: "resume",
+    href: "https://drive.google.com/file/d/1NGevcYJV8UIR0sPOb6CVdsPvIo5C6Vjx/edit",
   },
 ];

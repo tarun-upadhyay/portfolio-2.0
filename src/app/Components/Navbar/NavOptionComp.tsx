@@ -5,12 +5,19 @@ interface INavOption {
   item: {
     name: string;
     href: string;
-    
   };
- 
 }
 
 const NavOption: FC<INavOption> = ({ item }) => {
+  if (item.name === "Resume") {
+    return (
+      <p className="border-b-2 text-lg border-transparent cursor-pointer text-text hover:border-neon">
+        <a href={item.href}  target="_blank" rel="noopener noreferrer">
+          {item.name}
+        </a>
+      </p>
+    );
+  }
   return (
     <p className="border-b-2 text-lg border-transparent cursor-pointer text-text hover:border-neon">
       <Link
@@ -21,6 +28,7 @@ const NavOption: FC<INavOption> = ({ item }) => {
         smooth={true}
         spy={true}
         to={item.href}
+        
       >
         {item.name}
       </Link>
@@ -29,3 +37,4 @@ const NavOption: FC<INavOption> = ({ item }) => {
 };
 
 export default NavOption;
+// ${item.active ? "activeNavOption" : ""}`
