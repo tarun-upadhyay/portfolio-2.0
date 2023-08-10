@@ -10,7 +10,7 @@ const ContactButtons: FC<ButtonProps> = ({ link, name, icon, marginLeft }) => {
   return (
     <div>
       <a
-        className={`items-center px-5 py-2 mt-10 ${marginLeft} duration-100 border-2 rounded-lg fill-current flex border-neon text-neon hover:scale-105`}
+        className={`items-center px-5 py-2 mt-10 md:${marginLeft} duration-100 border-2 rounded-lg fill-current flex border-neon text-neon hover:scale-105`}
         href={link}
         rel="noreferrer"
         target="_blank"
