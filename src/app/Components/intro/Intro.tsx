@@ -60,7 +60,7 @@ const Intro = () => {
             Check out my work!
           </button>
         </Link>
-        <a href="#skil">
+        <a href="https://drive.google.com/file/d/1NGevcYJV8UIR0sPOb6CVdsPvIo5C6Vjx/" target="_blank">
           <button className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-darkerBlue duration-100 border-neon border-2 text-neon rounded-lg">
             Resume
           </button>
