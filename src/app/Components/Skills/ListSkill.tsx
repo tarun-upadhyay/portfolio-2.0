@@ -15,7 +15,7 @@ const ListSkill: FC<SkillProps> = ({ image, alt, rounded }) => {
       <Image
         className={`${
           rounded ? "rounded-[50%]" : "rounded"
-        }  w-full object-fit  md:h-36 sm:28`}
+        }  w-full object-fit  md:h-36 sm:h-28`}
         src={image}
         alt={alt}
         width={200}
