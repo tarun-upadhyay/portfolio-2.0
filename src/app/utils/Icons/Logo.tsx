@@ -6,7 +6,7 @@ interface LogoType {
 }
 const Logo: FC<LogoType> = ({ className }) => {
   return (
- <Image src={title} alt="titlelogo" height={50} width={50}/>
+ <Image src={title} className="rounded" alt="titlelogo" height={50} width={50}/>
   );
 };
 
