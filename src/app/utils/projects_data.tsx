@@ -27,6 +27,8 @@ import Trip from "./Images/Tripvillas.gif";
 import Instagram from "./Images/logo/instagram-icon.jpg";
 import NordJs from "./Images/logo/nodejs.png";
 import Weather from "./Images/Weather.gif";
+import ResumeData from './Images/Tarun-Upadhyay-Resume.pdf';
+export let Resume = ResumeData;
 export let projectsData = [
   {
     id: 1,
