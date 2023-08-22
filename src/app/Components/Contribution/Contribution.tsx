@@ -7,7 +7,7 @@ import Streak from "./Streak";
 const Contribution = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0"
+      className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-8 md:p-0"
      
     >
        <SectionTitle direction="right" title="My Contribution" />

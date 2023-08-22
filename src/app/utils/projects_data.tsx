@@ -22,51 +22,37 @@ import java from "./Images/logo/java.png";
 import jQuery from "./Images/logo/jQuery.png";
 import LinkDin from "./Images/clinkedin.png";
 import Email from "./Images/email.png";
-import Nord from "./Images/NordStrom.gif";
+import jcrew from "./Images/jcrewclone.png"
 import Trip from "./Images/Tripvillas.gif";
 import Instagram from "./Images/logo/instagram-icon.jpg";
 import NordJs from "./Images/logo/nodejs.png";
-import Weather from "./Images/Weather.gif";
-import ResumeData from './Images/Tarun-Upadhyay-Resume.pdf';
-export let Resume = ResumeData;
+import Geekbuying from "./Images/geekbuying.png"
+
+
 export let projectsData = [
   {
-    id: 1,
-    img: Shephora,
-    name: "Shephora Clone",
-    alt: "Shephor logo",
-    github: "https://github.com/tarun-upadhyay/astute-frog-320",
-    deployed: "https://tarunu88-gmail-com-makes-great-sites-9eb73.netlify.app/",
-    detail:
-      "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech: ["React", "Redux", "Chakra UI"],
-
-    type: "Frontend",
-  },
-  {
     id: 2,
-    img: Coshedule,
-    alt: "Coshedule",
-    name: "Coshedule Clone",
-    github: "https://github.com/akaushik509/WEB101_Project",
-    deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
-    detail:
-      "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech: ["HTML", "CSS", "Javascript"],
-    type: "Frontend",
+    img: jcrew,
+    alt: "Jcrew clone",
+    name: "Jcrew Clone",
+    github: "https://github.com/tarun-upadhyay/noiseless-cub-8646",
+    deployed: "https://tarun-upadhyay.github.io/Jcrew-frontend/",
+    detail:"An E-commerce web app the ultimate online hub for trendy fashion and exquisite cosmetics delivering a seamless shopping journey.",
+    tech: ["React", "React-Redux", "Chakra-UI", "NodeJs", "ExpressJs", "Mongo DB","Styled-Components",],
+    type: "Full Stack",
   },
   {
     id: 3,
-    img: Nord,
-    alt: "NordStrom clone",
-    name: "Nordstrom Clone",
-    github: "https://github.com/agrawalrajat310/red-sail-4113",
-    deployed: "https://enchanting-gumdrop-0df91d.netlify.app/",
-    detail:
-      "This project is about clone of Shephora.com which is an e-commerce store & here In this project I created solo and implemented some features like sorting, singing-up, add to cart etc.",
-    tech: ["HTML", "CSS", "Javascript"],
+    img: Geekbuying,
+    alt: "Geek buying clone",
+    name: "Geekbuying Clone",
+    github: "https://github.com/tarun-upadhyay/sensitive-meat-4664",
+    deployed: "https://geekbuyingsclone.netlify.app/",
+    detail:"Geekbuying Clone is an e-commerce web application that allows you to buy tools & assc. online. It has a variety of categories, just visit the product listing page and you will see all the products, in just a few clicks you can buy any product from the website. This project is just for educational purposes.",
+    tech: ["React", "React-Redux", "Chakra-UI", "Local-Stroage", "Json-Server"],
     type: "Frontend",
   },
+
   {
     id: 4,
     img: Trip,
@@ -79,19 +65,7 @@ export let projectsData = [
     tech: ["HTML", "CSS", "Javascript"],
     type: "Frontend",
   },
-  {
-    id: 5,
-    img: Weather,
-    name: "Weather App",
-    alt: "Weather App",
-    github:
-      "https://github.com/masai-course/Tarun_fw19_1178/tree/master/unit-3/old/sprint-2/day-4/assignments/Weather-1",
-    deployed: "https://zingy-puppy-341028.netlify.app/",
-    detail:
-      "It's a web app to show the weather forecast details using weather API and here you will be able to search for all the weather details for any city.",
-    tech: ["HTML", "CSS", "Javascript", "Weather-API"],
-    type: "Frontend",
-  },
+
   {
     id: 6,
     img: Coshedule,
@@ -101,7 +75,7 @@ export let projectsData = [
     deployed: "https://dynamic-lebkuchen-4099a2.netlify.app/#",
     detail:
       "This project is about clone of Shephora.com which is an e-com store & here  implemented some features like sorting, singing-up, add to cart etc.",
-    tech: ["React", "Redux", "Chakra-UI"],
+    tech: ["HTML", "CSS", "Javascript"],
     type: "Frontend",
   },
 ];

@@ -19,6 +19,7 @@ const ListSkill: FC<SkillProps> = ({ image, alt, rounded }) => {
         src={image}
         alt={alt}
         width={200}
+        loading="lazy"
         height={200}
         data-tooltip-id="my-tooltip"
         data-tooltip-content={alt}

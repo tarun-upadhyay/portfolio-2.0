@@ -10,7 +10,7 @@ const Streak = () => {
         alt="Github Streaks"
       />
       <img
-        className="h-48 sm:p-3 md:p-0"
+        className="md:h-48 sm:p-3 md:p-0"
         alt="most used programming languages"
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarun-upadhyay&layout=compact&langs_count=8&theme=react"
       />

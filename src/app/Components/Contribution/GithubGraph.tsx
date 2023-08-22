@@ -18,9 +18,9 @@ const GithubGraph: FC<GraphProp> = ({
   username,
 }) => {
   return (
-    <div className="rounded border border-dotted border-neon p-4 mt-10 md:w-[80%] sm:[90%] mx-auto flex justify-center py-8">
+    <div className="rounded md:border md:border-dotted md:border-neon p-4 mt-10 md:w-[80%] flex justify-center py-6">
       <GitHubCalendar
-    
+   
         username={username}
         fontSize={fontSize}
         renderBlock={(block, activity) =>

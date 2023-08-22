@@ -44,7 +44,7 @@ const ListProjects: FC<ProjectTypeProp> = ({
           </span>
         ))}
         <p className="text-textDark mt-2">
-          <span className="text-neon">Role:</span> {type}
+          <span className="text-neon">Project Type:</span> {type}
         </p>
         <div className="flex mt-4 space-x-4">
           <a
