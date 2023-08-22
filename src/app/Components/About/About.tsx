@@ -16,7 +16,7 @@ const About = () => {
         <Image
           src={ProfileImg}
           alt="about me image"
-          className="object-contain relative mx-auto mt-20 border-2 rounded-full md:mt-0 sm:ml-4 md:ml-20 md:w-80 md:h-80 sm:h-64 sm:w-64 border-neon "
+          className="object-contain relative mx-auto mt-20 border-2 rounded-full md:mt-0 sm:ml-4 md:ml-20 md:w-80 md:h-80 xsm:h-64 xsm:w-64 border-neon "
           height={300}
           loading="lazy"
           width={300}
