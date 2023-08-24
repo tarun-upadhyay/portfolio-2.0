@@ -128,13 +128,13 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center mx-auto">
+      <div className="flex flex-wrap items-center justify-center mx-auto w-[90%]">
         {allSocialMediaLink.map(({ icon, link, name }, i) => (
           <div key={i}>
             <ContactButtons
               icon={icon}
               link={link}
-              marginLeft={i === 0 ? "ml-0" : "ml-6 md:ml-10"}
+              marginLeft={i === 0 ? "ml-0" : "ml-6 md:ml-10 xsm:ml-3"}
               name={name}
             />
           </div>
