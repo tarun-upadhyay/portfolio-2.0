@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="flex flex-col">
         <article className="flex flex-col items-center mt-10 md:flex-row">
           <Image
-            className="relative md:w-[325px] w-full ml-4 md:h-[325px] sm:h-64 sm:w-64 rounded-lg object-contain"
+            className="relative md:w-[325px] w-full ml-4 md:h-[325px] xsm:h-64 xsm:w-64 rounded-lg object-contain"
             alt="company img"
             src="https://pbs.twimg.com/profile_images/1620774694189162497/3Av0forV_400x400.jpg"
             width={325}
