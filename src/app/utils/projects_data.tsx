@@ -36,7 +36,7 @@ export let projectsData = [
     alt: "Jcrew clone",
     name: "Jcrew Clone",
     github: "https://github.com/tarun-upadhyay/noiseless-cub-8646",
-    deployed: "https://tarun-upadhyay.github.io/Jcrew-frontend/",
+    deployed: "https://jcrew-final-tarun-upadhyay.vercel.app/",
     detail:"An E-commerce web app the ultimate online hub for trendy fashion and exquisite cosmetics delivering a seamless shopping journey.",
     tech: ["React", "React-Redux", "Chakra-UI", "NodeJs", "ExpressJs", "Mongo DB","Styled-Components",],
     type: "Full Stack",
