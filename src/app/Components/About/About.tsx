@@ -4,13 +4,18 @@ import React from "react";
 import ProfileImg from "../../utils/Images/profile.png";
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0" id='about'>
+    <div
+      className="flex flex-col items-center justify-center max-w-7xl w-full mx-auto p-5 md:p-0"
+      id="about"
+    >
       <SectionTitle title="About me" direction="right" />
       <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:items-start">
         <p className="mt-10 text-xl text-textDark md:w-1/2">
-          I am a Full Stack web developer learning MERN Stack at Masai School. I
-          have done done various group as well as individual projects in my
-          coding journey. <br />I did graduation in a Bachelor of science. After graduation, I did part-time work in the family business, Where I deal with customers. From childhood, My interest was in technology I always think what is happening inside gadgets. That interest excites me to jump into the Coding carrier.
+          Result-driven MERN Stack Developer having worked at Salesken.ai as a
+          SDE Intern developing frontend using React, HTML, CSS, Javascript,
+          Bootstrap, and jQuery. Interested in learning new skills and solving
+          problems. Aim to build a career as a web developer and significantly
+          contribute to an organization.{" "}
         </p>
         <br />
         <Image

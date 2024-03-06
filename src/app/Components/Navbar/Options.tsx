@@ -1,3 +1,4 @@
+
 interface NavOptions {
   name: string;
   href: string;
@@ -20,7 +21,7 @@ export const navOptions: NavOptions[] = [
     name: "Projects",
     href: "projects",
   },
-    {
+  {
     name: "Skills",
     href: "skills",
   },
@@ -33,3 +34,4 @@ export const navOptions: NavOptions[] = [
     href: "https://drive.google.com/file/d/1NGevcYJV8UIR0sPOb6CVdsPvIo5C6Vjx/edit",
   },
 ];
+

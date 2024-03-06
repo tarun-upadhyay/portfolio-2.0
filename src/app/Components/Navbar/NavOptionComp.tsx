@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import { Link } from "react-scroll";
 
+
 interface INavOption {
   item: {
     name: string;
@@ -9,10 +10,11 @@ interface INavOption {
 }
 
 const NavOption: FC<INavOption> = ({ item }) => {
+
   if (item.name === "Resume") {
     return (
       <p className="border-b-2 text-lg border-transparent cursor-pointer text-text hover:border-neon">
-        <a href={item.href}  target="_blank" rel="noopener noreferrer">
+        <a href={item.href} target="_blank" rel="noopener noreferrer">
           {item.name}
         </a>
       </p>
@@ -28,7 +30,6 @@ const NavOption: FC<INavOption> = ({ item }) => {
         smooth={true}
         spy={true}
         to={item.href}
-        
       >
         {item.name}
       </Link>

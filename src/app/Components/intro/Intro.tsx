@@ -17,19 +17,20 @@ const Intro = () => {
         Tarun Upadhyay
       </h1>
       <h2 className="text-4xl text-textDark md:text-5xl">
-        I build amazing websites & web-apps!
+        Build amazing websites & web-apps!
       </h2>
       <p className="w-4/5 md:w-3/5 text-textDark">
-        I am a <span className="text-neon">FullStack web developer</span>,
-        Having experience in frontend libraries like{" "}
-        <span className="text-neon">React</span>,{" "}
+        A <span className="text-neon">FullStack web developer</span>, Having
+        experience in frontend libraries like{" "}
+        <span className="text-neon">ReactJs</span>,{" "}
+        <span className="text-neon">NextJs</span>,{" "}
         <span className="text-neon">HTML</span>,{" "}
         <span className="text-neon">CSS</span>,{" "}
         <span className="text-neon">JavaScript</span> and in Backend{" "}
         <span className="text-neon">Nodejs</span>,
         <span className="text-neon"> Expressjs </span>. Capable of writing
         Production Ready Code for website and Single Page web application.
-        Focused on building products that people love to use. Aim to start a
+        Focused on building products that people love to use. Aim to build a
         career as a web developer and make a significant contribution to an
         organization
       </p>
@@ -50,7 +51,6 @@ const Intro = () => {
         <Link
           activeClass="active"
           duration={500}
-         
           offset={-100}
           smooth={true}
           spy={true}
@@ -60,7 +60,10 @@ const Intro = () => {
             Check out my work!
           </button>
         </Link>
-        <a href="https://drive.google.com/file/d/1NGevcYJV8UIR0sPOb6CVdsPvIo5C6Vjx/" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/1NGevcYJV8UIR0sPOb6CVdsPvIo5C6Vjx/"
+          target="_blank"
+        >
           <button className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-darkerBlue duration-100 border-neon border-2 text-neon rounded-lg">
             Resume
           </button>

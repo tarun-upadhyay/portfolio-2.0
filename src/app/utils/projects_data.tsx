@@ -22,14 +22,38 @@ import java from "./Images/logo/java.png";
 import jQuery from "./Images/logo/jQuery.png";
 import LinkDin from "./Images/clinkedin.png";
 import Email from "./Images/email.png";
-import jcrew from "./Images/jcrewclone.png"
+import jcrew from "./Images/jcrewclone.png";
 import Trip from "./Images/Tripvillas.gif";
 import Instagram from "./Images/logo/instagram-icon.jpg";
 import NordJs from "./Images/logo/nodejs.png";
-import Geekbuying from "./Images/geekbuying.png"
-
+import Geekbuying from "./Images/geekbuying.png";
+import sucare from "./Images/sucare.png";
 
 export let projectsData = [
+  {
+    id: 1,
+    img: sucare,
+    alt: "sucare",
+    name: "SU Care",
+    github: "https://github.com/tarun-upadhyay/su-care-project",
+    deployed: "https://www.sucare.in/",
+    detail:
+      "Su Care is the ultimate destination for all your TV service needs. Our expert team offers a wide range of services, including repairs, installations, and maintenance, ensuring your television stays in top condition. With Su Care, you can experience hassle-free service and enjoy uninterrupted entertainment.",
+    tech: [
+      "NextJs 14",
+      "React",
+      "React-Redux",
+      "Next-Auth",
+      "Tailwind Css",
+      "NodeJs",
+      "ExpressJs",
+      "Mongo DB",
+      "Material-Tailwind",
+      "Styled-Components",
+      "AWS-Lambda",
+    ],
+    type: "Full Stack",
+  },
   {
     id: 2,
     img: jcrew,
@@ -37,8 +61,17 @@ export let projectsData = [
     name: "Jcrew Clone",
     github: "https://github.com/tarun-upadhyay/noiseless-cub-8646",
     deployed: "https://jcrew-final-tarun-upadhyay.vercel.app/",
-    detail:"An E-commerce web app the ultimate online hub for trendy fashion and exquisite cosmetics delivering a seamless shopping journey.",
-    tech: ["React", "React-Redux", "Chakra-UI", "NodeJs", "ExpressJs", "Mongo DB","Styled-Components",],
+    detail:
+      "An E-commerce web app the ultimate online hub for trendy fashion and exquisite cosmetics delivering a seamless shopping journey.",
+    tech: [
+      "React",
+      "React-Redux",
+      "Chakra-UI",
+      "NodeJs",
+      "ExpressJs",
+      "Mongo DB",
+      "Styled-Components",
+    ],
     type: "Full Stack",
   },
   {
@@ -48,7 +81,8 @@ export let projectsData = [
     name: "Geekbuying Clone",
     github: "https://github.com/tarun-upadhyay/sensitive-meat-4664",
     deployed: "https://geekbuyingsclone.netlify.app/",
-    detail:"Geekbuying Clone is an e-commerce web application that allows you to buy tools & assc. online. It has a variety of categories, just visit the product listing page and you will see all the products, in just a few clicks you can buy any product from the website. This project is just for educational purposes.",
+    detail:
+      "Geekbuying Clone is an e-commerce web application that allows you to buy tools & assc. online. It has a variety of categories, just visit the product listing page and you will see all the products, in just a few clicks you can buy any product from the website. This project is just for educational purposes.",
     tech: ["React", "React-Redux", "Chakra-UI", "Local-Stroage", "Json-Server"],
     type: "Frontend",
   },

@@ -44,6 +44,7 @@ const Header = () => {
           {navOptions.map((el, i) => {
             return <NavOption item={el} key={i} />;
           })}
+     
         </ul>
       </div>
     </nav>

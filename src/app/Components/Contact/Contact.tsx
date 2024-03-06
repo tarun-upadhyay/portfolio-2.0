@@ -33,7 +33,7 @@ const Contact = () => {
       .catch((err) => console.log(err.text));
   };
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full" id="contact">
       <div className="flex items-center justify-center mt-10 space-x-5">
         <LineSvg className="relative w-20 h-1 md:w-60" />
         <h2 className="text-xl text-text md:text-4xl whitespace-nowrap">
@@ -47,7 +47,7 @@ const Contact = () => {
         </h1>
         <div
           className="border rounded-xl border-neon px-5 py-8 mt-10"
-          id="contact"
+          
         >
           <form
             ref={formData}
