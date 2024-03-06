@@ -36,7 +36,7 @@ I am actively seeking new opportunities and would love to discuss how my skills 
   <a href="https://www.instagram.com/tarun_kr_upadhyay/" style="margin-right:20px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" height="30" width="30">
   </a>
-  <a href="https://www.linkedin.com/in/your_username/" style="margin-right:20px;">
+  <a href="https://www.linkedin.com/in/tarun-kr-upadhyay/" style="margin-right:20px;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" height="30" width="30">
   </a>
   <a href="mailto:tarunu88@gmail.com">
