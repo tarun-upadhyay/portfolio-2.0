@@ -19,7 +19,7 @@ const Experience = () => {
           <div className="ml-2 mt-5 md:mt-0 md:ml-20">
             <h3 className="text-4xl font-semibold text-neon">Salesken.ai</h3>
             <h4 className="text-2xl font-fira font-bold">
-              Tech Intern, Frontend Developer
+              Frontend Developer
             </h4>
             <p className="text-textDark mt-3 md:max-w-[700px]">
               Instrument every sales conversation into a win and coach every
