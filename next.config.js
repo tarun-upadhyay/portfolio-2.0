@@ -6,12 +6,10 @@ const nextConfig = {
       "uploads-ssl.webflow.com",
       "cdn.pixabay.com",
       "github-readme-streak-stats.herokuapp.com",
+      "github-readme-stats.vercel.app",
     ],
- 
-
   },
- output: 'export',
- 
+  output: "export",
 };
 
 module.exports = nextConfig;
